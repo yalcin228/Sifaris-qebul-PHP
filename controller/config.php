@@ -4,7 +4,7 @@ session_start();
 ob_start();
 
 try{
-    $conn=new PDO("mysql:host=sql306.epizy.com;dbname=epiz_28850367_sifaris_qebulu","epiz_28850367","w8tp2bc6");
+    $conn=new PDO("mysql:host=localhost;dbname=sifaris_qebulu","root","");
 }
 catch(PDOException $e){
     echo $e->getMessage();
